@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Delius+Unicase:wght@400;700&family=Miss+Fajardose&family=Poiret+One&display=swap" rel="stylesheet">
+
+    <title>Isso Beatz</title>
+
+</head>
+<body>
+    <div class="headline">
+        <img src="bilder/isso500.JPG" alt="isso logo" style="margin: 15px;" class="bild">
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">Dein Sound. Dein Vibe. Deine Plattform.</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Start</a></li>
+          <li><a href="über.html">Über mich</a></li>
+          <!--<li><a href="#">Leistungen</a></li>-->
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <div class="infotext">
+        <!--
+          TODO:  style=" height: fit-content; display: grid; grid-template-columns: repeat(5, 1fr); justify-items: center;align-items: center; margin: 35px; gap: 35px;"
+        -->
+        <p class="wilktext">Ich bin IssoBeatz aus Homburg, und Ich produziere seit Jahren Musik. Ich wünsche dir viel Spass damit, 
+                            dich durch meine Beats zu hören und Ich hoffe das dir der ein oder andere gefällt.
+                        <br>Falls du Interesse an einem oder mehreren hast sende mir gerne eine Nachricht auf Insta oder eine eMail.</p>
+        <!-- <p class="wilktext">Falls du Interesse an einem oder mehreren hast sende mir gerne eine Nachricht auf Insta oder eine eMail.</p> -->
+    </div>
+
+    <div id="buttons-container">
+        <!--
+          TODO:  style=" height: fit-content; display: grid; grid-template-columns: repeat(5, 1fr); justify-items: center;align-items: center; margin: 35px; gap: 35px;"
+        -->
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/isso2.png" alt="">
+            <audio controls class="mukke">
+                <source src="music/1.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 1</p>
+            <button data-id="1" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/isso300.png" alt="">
+            <audio controls class="mukke">
+                <source src="music/2.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 2</p>
+            <button data-id="2" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/issoBob250.JPG" alt="">
+            <audio controls class="mukke">
+                <source src="music/3.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 3</p>
+            <button data-id="3" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/isso300.png" alt="">
+            <audio controls class="mukke">
+                <source src="music/4.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 4</p>
+            <button data-id="4" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/isso2.png" alt="">
+            <audio controls class="mukke">
+                <source src="music/5.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 5</p>
+            <button data-id="5" class="like-button">👍 Like</button>
+        </div>   
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/issoBob250.JPG" alt="">
+            <audio controls class="mukke">
+                <source src="music/6.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 6</p>
+            <button data-id="6" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/isso2.png" alt="">
+            <audio controls class="mukke">
+                <source src="music/7.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 7</p>
+            <button data-id="7" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/isso300.png" alt="">
+            <audio controls class="mukke">
+                <source src="music/8.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 8</p>
+            <button data-id="8" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/isso2.png" alt="">
+            <audio controls class="mukke">
+                <source src="music/9.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 9</p>
+            <button data-id="9" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/issoBob250.JPG" alt="">
+            <audio controls class="mukke">
+                <source src="music/10.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 10</p>
+            <button data-id="10" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/isso2.png" alt="">
+            <audio controls class="mukke">
+                <source src="music/11.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 11</p>
+            <button data-id="11" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/isso300.png" alt="">
+            <audio controls class="mukke">
+                <source src="music/12.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 12</p>
+            <button data-id="12" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/issoBob250.JPG" alt="">
+            <audio controls class="mukke">
+                <source src="music/13.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 13</p>
+            <button data-id="13" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/isso300.png" alt="">
+            <audio controls class="mukke">
+                <source src="music/14.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 14</p>
+            <button data-id="14" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/isso2.png" alt="">
+            <audio controls class="mukke">
+                <source src="music/15.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 15</p>
+            <button data-id="15" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/issoBob250.JPG" alt="">
+            <audio controls class="mukke">
+                <source src="music/16.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 16</p>
+            <button data-id="16" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/isso2.png" alt="">
+            <audio controls class="mukke">
+                <source src="music/17.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 17</p>
+            <button data-id="17" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/isso300.png" alt="">
+            <audio controls class="mukke">
+                <source src="music/18.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 18</p>
+            <button data-id="18" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/isso2.png" alt="">
+            <audio controls class="mukke">
+                <source src="music/19.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 19</p>
+            <button data-id="19" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/issoBob250.JPG" alt="">
+            <audio controls class="mukke">
+                <source src="music/20.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 20</p>
+            <button data-id="20" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/isso2.png" alt="">
+            <audio controls class="mukke">
+                <source src="music/21.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 21</p>
+            <button data-id="21" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/isso300.png" alt="">
+            <audio controls class="mukke">
+                <source src="music/22.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 22</p>
+            <button data-id="22" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/issoBob250.JPG" alt="">
+            <audio controls class="mukke">
+                <source src="music/23.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 23</p>
+            <button data-id="23" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/isso300.png" alt="">
+            <audio controls class="mukke">
+                <source src="music/24.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 24</p>
+            <button data-id="24" class="like-button">👍 Like</button>
+        </div>
+
+        <div style="display: grid; justify-items: center;" id="musikbox">
+            <img src="bilder/isso2.png" alt="">
+            <audio controls class="mukke">
+                <source src="music/25.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Element nicht.
+            </audio>
+            <p style="background-color: rgb(0, 0, 0);color: rgb(184, 15, 155);" class="titel">Titel 25</p>
+            <button data-id="25" class="like-button">👍 Like</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-section about">
+            <h3>Über mich</h3>
+            <p>Ich bin ein sehr kreativer Kopf der immer Lust auf neues hat. Ich liebe das produzieren von Musik</p>
+          </div>
+          <div class="footer-section links">
+            <h3>Links</h3>
+            <ul>
+              <li><a href="index.html">Startseite</a></li>
+              <li><a href="kontakt.html">Impressum</a></li>
+              <li><a href="über.html">Blog</a></li>
+              <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+          </div>
+          <div class="footer-section contact">
+            <h3>Kontakt</h3>
+            <p>Email: info@beispiel.de</p>
+            <p>Telefon: +49 123 456789</p>
+            <div class="socials">
+              <!--<a href="#"><img src="facebook.svg" alt="Facebook"></a>-->
+              <a href="https://www.instagram.com/dontcallmeproducer/"><img src="bilder/person_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="Instagram">Instagram</a>
+              <!--<a href="#"><img src="twitter.svg" alt="Twitter"></a>-->
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          &copy; 2025 Beispielseite. Alle Rechte vorbehalten.
+        </div>
+      </footer>
+
+
+
+
+    <script src="code.js"></script>
+
+    
+</body>
+</html>

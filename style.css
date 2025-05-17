@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.bild{
+  max-width: 100%;
+  height: auto;
+}
+
+
+.headline{
+    display: grid;
+    justify-content: center;
+}
+
+.titel{
+    font-family: "Delius Unicase", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.infotext{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  flex-flow: row wrap; 
+}
+
+.wilktext{
+    width: 550px;
+    color: rgb(184, 15, 155);
+    font-family: "Delius Unicase", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.aboutTxt{
+  margin: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  flex-flow: row wrap; 
+
+  
+}
+
+.imp{
+    color: #c13584;
+}
+ 
+.navbar {
+    /*background-color: #333;
+    color: #fff;*/
+    background: linear-gradient(135deg, #b1c9c9, #0824a0e3,#08076b,#08076b,#0c0a4b, #5c0a5f93, #000000);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: "Delius Unicase", cursive;
+    font-style: normal;
+    text-shadow: #0c3c85 5px 5px 5px;
+}
+  
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: "Delius Unicase", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+  
+.nav-links a:hover {
+    color: #ff0000;
+    
+}
+  
+/* Responsive */
+/* @media (max-width: 768px) {
+.nav-links {
+      flex-direction: column;
+      background-color: #444;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 200px;
+      display: none;
+}
+  
+    .nav-links.active {
+      display: flex;
+}
+} */
+
+.like-button {
+    background-color: transparent;
+    border: 2px solid #ccc;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease;
+  }
+
+  .like-button.liked {
+    border-color: #1877f2;
+    background-color: #1877f2;
+    color: white;
+  }
+
+
+
+  .footer {
+    background: linear-gradient(135deg, #000000, #0824a0e3,#08076b,#08076b,#0c0a4b, #5c0a5f93, #000000);
+    margin-top: 75px;
+    color: #f1f1f1;
+    text-shadow: #000000 5px 5px 5px;
+    padding: 40px 20px 20px;
+    font-family: sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-section h3 {
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section a {
+    color: #f1f1f1;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .socials img {
+    width: 24px;
+    margin-right: 10px;
+    filter: brightness(0) invert(1);
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .card {
+    background: linear-gradient(135deg, #000000, #0824a0e3,#08076b,#08076b,#0c0a4b, #5c0a5f93, #000000);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(87, 87, 87, 0.1);
+    text-align: center;
+    max-width: 350px;
+  }
+
+  .card h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #c13584;
+  }
+
+  .card p {
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  .social-link {
+    text-decoration: none;
+    color: #E1306C;
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .social-link:hover {
+    color: #c13584;
+  }
+
+  #buttons-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 35px;
+    gap: 35px;
+}
+
+#musikbox:hover{
+    scale: 1.1;
+    z-index: 1;
+}
+
+
+
+
+
+
+  
+  
+
+  
